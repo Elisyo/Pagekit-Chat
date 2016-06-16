@@ -1,0 +1,16 @@
+{
+    "name": "nextoo/chat",
+    "version": "0.1",
+    "type": "extension",
+    "title": "Chat",
+    "extra": {
+        "icon": "chat.png"
+    },
+    "require": {
+        "cboden/ratchet": "dev-master",
+        "react/react": "dev-master"
+    }
+
+}
+
+

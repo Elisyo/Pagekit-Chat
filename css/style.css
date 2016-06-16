@@ -1,0 +1,99 @@
+.hidden {
+    display: none;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#leave-room {
+    margin-bottom: 10px;
+    float: right;
+}
+
+#user-container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#messages {
+    height: 300px;
+    width: 500px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+#msg-container {
+    padding: 20px;
+}
+
+#msg {
+    width: 400px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.msg {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.time {
+    float: right;
+    color: #939393;
+    font-size: 13px;
+}
+
+.details {
+    margin-top: 20px;
+}
+header{
+    width: 100%;
+    border-style: solid;
+    overflow-x: scroll;
+    max-height: 70px;
+}
+section {
+    margin-top: 30px;
+    float: left;
+}
+aside {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-style: solid;
+    width: 100%;
+    height: 400px;
+    max-width: 450px;
+    overflow: scroll;
+}
+input {
+    border: 1;
+    line-height: 20px;
+    font-size: 14px;
+}
+textarea {
+    font-size: 14px;
+    resize: none;
+    border: 1;
+    width: 350px;
+    height: 115px;
+}
+footer{
+    font-size: 13px;
+    height: 80px;
+    width: 100%;
+    border-style: solid;
+    overflow: scroll;
+}
